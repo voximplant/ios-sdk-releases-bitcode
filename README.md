@@ -6,7 +6,7 @@ Bitcode is an intermediate representation of a compiled program. Apps you upload
 
 Usage of bitcode libraries is not recommended for debug/testing builds because of its size.
 
-Voximplant iOS SDK is distributed as a binary packages (XCFramework) since 2.38.0.
+Voximplant iOS SDK is distributed as a binary package (XCFramework) since 2.38.0.
 
 Supported architectures:
 - iphoneos: armv7, arm64
@@ -15,7 +15,7 @@ Supported architectures:
 
 ## Add Voximplant to your app in Xcode
 
-1. Open the project in Xcode
+1. Open your project in Xcode
 2. Go to Files > Swift Packages > Add Package Dependency
 3. Add this github repository ( .... )
 4. Select the SDK version 
@@ -35,6 +35,6 @@ dependencies: [
 ## Version notice
 Voximplant iOS SDK version does not fully conform to [semantic versioning](https://www.semver.org/). 
 
-The backward compatibility is only garanteed for the patch version. Minor version change may include the API changes or a dependency update.
+Backward compatibility is only guaranteed for the patch version. API changes or a dependency update will increment the minor version.
 
 Check the Voximplant iOS SDK [changelog](https://voximplant.com/docs/references/iossdk/changelog) before selecting a version requirement. It is recommended to use `exact` or `upToNextMinor` requirements.
