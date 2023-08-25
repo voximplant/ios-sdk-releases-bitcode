@@ -1,5 +1,10 @@
 # Voximplant iOS SDK Swift PM
 
+### ⚠️ Deprecation ⚠️
+Since Apple is [deprecating bitcode tecnology](https://developer.apple.com/documentation/xcode-release-notes/xcode-14-release-notes#Deprecations), bitcode sdk release is deprecated as well. For nonbitcode sdk release, check: 
+[ios-sdk-releases](https://github.com/voximplant/ios-sdk-releases).
+
+
 This repository provides the access to the Voximplant iOS SDK for Swift Package Manager (bitcode version). 
 
 Bitcode is an intermediate representation of a compiled program. Apps you upload to App Store Connect that contain bitcode will be compiled and linked on the App Store. Including bitcode will allow Apple to re-optimize your app binary in the future without the need to submit a new version of your app to the App Store.
